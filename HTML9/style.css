@@ -72,10 +72,13 @@ main{
   .step-box{
     float: none;
     width: 90%;
-    padding-bottom: 20px;
-    margin: 50px 5% 50px 5%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+  }
+  .step-box:first-child{
+    margin-top: 50px;
   }
   .step-box:last-child{
-    padding-bottom:none;
+    margin-bottom: 50px;
   }
 }
