@@ -64,16 +64,14 @@ main{
 
 @media screen and (max-width:768px) {
   main{
-    margin: 50px 5% 50px 5%;
+    background: center;
+    width: 90%;
   }
-   .clearfix{
-    background-position: relative;
-  }
+
   .step-box{
     float: none;
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
-    margin-left: 5%;
   }
   .step-box:first-child{
     margin-top: 50px;
